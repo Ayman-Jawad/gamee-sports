@@ -1,0 +1,67 @@
+/*  google fonts link  */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/*  navbar styles  */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 10px;
+}
+
+.link-items {
+    display: flex;
+    align-items: center;
+}
+
+.link-items li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.link-items li a {
+    text-decoration: none;
+    color: #3c354f;
+    font-weight: 500;
+}
+
+.link-items li a i {
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-title {
+    margin-left: 20px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.logo-title span {
+    color: #ff42a5;
+}
+
+.last-link {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    display: flex;
+    padding: 5px 24px;
+    align-items: center;
+}
+
