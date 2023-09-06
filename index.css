@@ -438,3 +438,242 @@ footer small {
     font-size: 13px;
     color: gray;
 }
+
+
+
+/* -----------------------------
+Mobile Responsive
+--------------------- */
+
+  @media screen and (max-width: 576px) {
+  
+    .navbar,
+    .link-items,
+    .banner-container {
+        flex-direction: column;
+    }
+  
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+  
+    .banner-content {
+        margin-top: 30px;
+        padding-top: 20px;
+    }
+  
+    .link-items li,
+    .last-link {
+        margin-top: 20px;
+    }
+  
+    .last-link li {
+        margin-top: 0;
+    }
+  
+    .banner-img-container img {
+        width: 100%;
+    }
+  
+    .gamer {
+        flex-direction: column;
+    }
+  
+    .gamer-content {
+        text-align: center;
+    }
+  
+    .gamer-img-container img {
+        width: 100%;
+    }
+  
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .play-game-online {
+        flex-direction: column-reverse;
+    }
+  
+    .second-img-playGame {
+        position: relative;    
+        left: 162px;
+    }
+  
+    .content-playGame {
+        padding-left: 10px;
+    }
+  
+    .game-item-section {
+        width: 100%;
+    }
+  
+    .container-items {
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 120px);
+    }
+  
+    .items {
+        width: 120px;
+        padding: 5px;
+    }
+  
+    .items p {
+        font-size: 10px;
+    }
+  
+    .items img {
+        width: 50%;
+    }
+  
+    .footer-link {
+        padding-bottom: 20px;
+    }
+  
+    .footer-link ul {
+        display: grid;
+        padding: 10px;
+        gap: 10px;
+        grid-template-columns: repeat(2, 150px);
+    }
+  
+    .game-item-sections {
+        padding: 10px 50px;
+    }
+  
+    .footer-points ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .footer-points ul li {
+        margin-top: 20px;
+    }
+  
+    #cover-img {
+        top: 47px;
+        left: 41px;
+        width: 250px;
+        height: 291px;
+    }
+  }
+
+  /* --------------------------
+  Tablet
+  --------------------- */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .navbar,
+    .link-items,
+    .banner-container {
+        flex-direction: column;
+    }
+  
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+  
+    .banner-content {
+        margin-top: 30px;
+        padding-top: 20px;
+    }
+  
+    .link-items li,
+    .last-link {
+        margin-top: 20px;
+    }
+  
+    .last-link li {
+        margin-top: 0;
+    }
+  
+    .banner-img-container img {
+        width: 100%;
+    }
+  
+    .gamer {
+        flex-direction: column;
+    }
+  
+    .gamer-content {
+        text-align: center;
+    }
+  
+    .gamer-img-container img {
+        width: 100%;
+    }
+  
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .play-game-online {
+        flex-direction: column-reverse;
+    }
+  
+    .second-img-playGame {
+        position: relative;
+        left: 162px;
+    }
+  
+    .content-playGame {
+        padding-left: 10px;
+    }
+  
+    .game-item-section {
+        width: 100%;
+    }
+  
+    .container-items {
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 120px);
+    }
+  
+    .items {
+        width: 120px;
+        padding: 5px;
+    }
+  
+    .items p {
+        font-size: 10px;
+    }
+  
+    .items img {
+        width: 50%;
+    }
+  
+    .footer-link {
+        padding-bottom: 20px;
+    }
+  
+    .footer-link ul {
+        display: grid;
+        padding: 10px;
+        gap: 10px;
+        grid-template-columns: repeat(2, 150px);
+    }
+  
+    .game-item-sections {
+        padding: 10px 50px;
+    }
+  
+    .footer-points ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .footer-points ul li {
+        margin-top: 20px;
+    }
+  
+    #cover-img {
+        top: 47px;
+        left: 28px;
+        width: 242px;
+        height: 270px;
+    }
+  }
+  
